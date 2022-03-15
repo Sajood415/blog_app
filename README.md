@@ -24,3 +24,9 @@ cd server
 D:\blog_app>cd server
 D:\blog_app\server>npm i
 ```
+You can use the following emails to access the system
+
+```bash
+User 1: Email: sajood123@gmail.com Password: Saj12345
+User 2: Email: shanisq2@gmail.com Password: Saj12345
+```
