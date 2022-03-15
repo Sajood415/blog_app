@@ -19,10 +19,13 @@ To run this project locally, you'll have to install the node_modules in client a
 ```javascript
 D:\blog_app>cd client
 D:\blog_app\client>npm i
+D:\blog_app\client>npm start
 
 cd server
 D:\blog_app>cd server
 D:\blog_app\server>npm i
+D:\blog_app\server>npm start
+
 ```
 You can use the following emails to access the system
 
