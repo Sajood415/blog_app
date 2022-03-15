@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a Blog Website where user can login and create blog. User will be able to edit and delete his blog and able to view other users blogs. For teh front-end of the website I have used React JS and Material UI for the designing of the components. For backend I have used Express JS and Mongo DB for saving the blogs.
+This is a Blog Website where user can login and create blog. User will be able to edit and delete his blog and able to view other users blogs. For teh front-end of the website I have used React JS and Material UI for the designing of the components. For backend I have used Express JS and Mongo DB for saving the blogs. For the authentication and login system I have used Okta authentication. User can be added by the admin manually in the Okta admin dashboard. Sign up module of Okta authentication is paid.
 
 ## Installation
 
