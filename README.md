@@ -12,3 +12,15 @@ Node and npm versions used in this project are
 v14.16.1
 6.14.12
 ```
+
+To run this project locally, you'll have to install the node_modules in client and server.
+
+
+```javascript
+D:\blog_app>cd client
+D:\blog_app\client>npm i
+
+cd server
+D:\blog_app>cd server
+D:\blog_app\server>npm i
+```
