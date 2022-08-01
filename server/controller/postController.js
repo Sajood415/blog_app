@@ -32,7 +32,7 @@ const getPost = async (req, res) => {
 const updatePost = async (req, res) => {
     try {
       await post.findByIdAndUpdate(req.params.id, {$set: req.body });
-      res.status(200).json("Blog updated Successfully")
+      res.status(200).json("Blog updated")
     } catch (e) {
         res.status(500).json(e)
     }
@@ -42,7 +42,7 @@ const deletePost = async (req, res) => {
     try {
       let deletePost = await post.findById(req.params.id);
       await post.deleteOne(deletePost);
-      res.status(200).json("Blog updated Successfully")
+      res.status(200).json("Blog updated")
     } catch (e) {
         res.status(500).json(e)
     }
